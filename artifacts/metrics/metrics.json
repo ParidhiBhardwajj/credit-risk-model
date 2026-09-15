@@ -1,0 +1,71 @@
+{
+  "n_rows": 30000,
+  "default_rate": 0.2212,
+  "lgd": 0.75,
+  "logistic": {
+    "auc": 0.7518252895346625,
+    "ks": 0.39231852046202986,
+    "gini": 0.5036505790693251,
+    "pr_auc": 0.5037167890013791,
+    "n": 6000,
+    "default_rate": 0.22116666666666668
+  },
+  "lightgbm": {
+    "auc": 0.7761843075172015,
+    "ks": 0.418066169537488,
+    "gini": 0.5523686150344029,
+    "pr_auc": 0.5502385205663822,
+    "n": 6000,
+    "default_rate": 0.22116666666666668
+  },
+  "lift": {
+    "auc": 0.024359017982538922,
+    "ks": 0.025747649075458123
+  },
+  "tier_edges": {
+    "A": [
+      0.0,
+      0.08
+    ],
+    "B": [
+      0.08,
+      0.15
+    ],
+    "C": [
+      0.15,
+      0.25
+    ],
+    "D": [
+      0.25,
+      0.4
+    ],
+    "E": [
+      0.4,
+      1.01
+    ]
+  },
+  "features": [
+    "sex",
+    "education",
+    "marriage",
+    "limit_bal",
+    "age",
+    "pay_0",
+    "bill_amt1",
+    "pay_amt1",
+    "utilization",
+    "utilization_avg",
+    "utilization_max",
+    "utilization_trend",
+    "payment_ratio",
+    "payment_ratio_avg",
+    "payment_to_limit",
+    "delinquent_months",
+    "max_delinquency",
+    "consecutive_late",
+    "revolving_months",
+    "over_limit",
+    "balance_growth",
+    "zero_payment_months"
+  ]
+}

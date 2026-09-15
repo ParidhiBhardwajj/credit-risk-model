@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+.streamlit/secrets.toml
+data/raw/*.xls
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
